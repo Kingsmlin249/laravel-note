@@ -1,1 +1,7 @@
 
+Route::get($uri, $callback);     get请求 获取资源
+Route::post($uri, $callback);   post请求 创建资源
+Route::put($uri, $callback);     编辑更改资源(需要提交完整的资源字段)
+Route::patch($uri, $callback); 编辑更改资源(可以提交需要更改的字段)
+Route::delete($uri, $callback);删除资源
+Route::options($uri, $callback);服务器允许那些请求谓语
